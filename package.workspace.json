@@ -1,0 +1,24 @@
+{
+  "name": "verbocare-workspace",
+  "version": "1.0.0",
+  "description": "VerboCare - AI-Driven Telehealth Triage Platform - Complete Workspace",
+  "private": true,
+  "scripts": {
+    "install:all": "npm install && cd server && npm install && cd ../ai-service && npm install && cd ..",
+    "dev:frontend": "npm run dev",
+    "dev:backend": "cd server && npm run dev",
+    "dev:ai": "cd ai-service && npm run dev",
+    "build": "npm run build",
+    "start": "npm run start"
+  },
+  "keywords": [
+    "telehealth",
+    "ai",
+    "triage",
+    "healthcare",
+    "nextjs",
+    "typescript"
+  ],
+  "author": "VerboCare Team",
+  "license": "MIT"
+}
